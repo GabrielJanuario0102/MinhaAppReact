@@ -1,12 +1,10 @@
 function Footer() {
 
   return (
-    <>
-      <main>
-        <h1>Este é o footer</h1>
-      </main>
-    </>
-  );
+     <footer className="bg-dark text-white text-center py-4 fixed-bottom">
+        <p className="mb-0"> 2026 - Desenvolvido na disciplina de PWEB 1</p>
+      </footer>
+  )
 }
 
 export default Footer;
